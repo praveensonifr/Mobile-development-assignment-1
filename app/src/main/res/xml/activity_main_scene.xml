@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:layout_height="152dp"
+            motion:layout_editor_absoluteX="16dp"
+            android:layout_width="378dp"
+            android:id="@+id/TextView"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="56dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent" />
+        <Constraint
+            android:layout_height="93dp"
+            motion:layout_editor_absoluteX="29dp"
+            android:layout_width="361dp"
+            android:id="@+id/EditText"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="232dp"
+            motion:layout_editor_absoluteY="265dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent" />
+        <Constraint
+            android:layout_width="316dp"
+            android:layout_height="50dp"
+            motion:layout_editor_absoluteX="47dp"
+            android:id="@+id/Button"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="376dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteX="54dp"
+            android:id="@+id/fontclrbtn"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="476dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toStartOf="@+id/fontsizbtn" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteX="264dp"
+            android:id="@+id/fontsizbtn"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="476dp"
+            motion:layout_constraintStart_toEndOf="@+id/fontclrbtn"
+            motion:layout_constraintEnd_toEndOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+    </ConstraintSet>
+</MotionScene>

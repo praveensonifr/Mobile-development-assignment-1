@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="238dp"
+        android:layout_height="51dp"
+        android:background="#F9F8FA"
+        android:textColor="#0505AC"
+        android:text="@string/hello_i_am_from_isep"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="416dp"
+        android:layout_height="wrap_content"
+        android:background="#29CA04"
+        android:text="@string/edit_now"
+        android:textColor="#FCFFFB"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <Button
+        android:id="@+id/fontclrbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A309BD"
+        android:text="@string/font_color"
+        android:textColor="#F7FAF9"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <Button
+        android:id="@+id/fontsizbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9509AE"
+        android:text="font size"
+        android:textColor="#FDFFFF"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="409dp"
+        android:layout_height="382dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:background="#041675"
+        android:textColor="#EFEFFA"
+        android:inputType="textPersonName"
+        android:text="@string/edittext"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="1dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

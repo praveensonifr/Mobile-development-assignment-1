@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Assignment 1</string>
+    <string name="edit_now">Edit Now</string>
+    <string name="hello_i_am_from_isep">Hello I am from ISEP</string>
+    <string name="font_color">Font Color</string>
+    <string name="font_style">Font Style</string>
+    <string name="edittext">EditText</string>
 </resources>
